@@ -1,0 +1,93 @@
+/* For index.html */
+body {
+  background-image: url("img/image.png");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-section {
+  text-align: center;
+  padding-left: 20px;
+}
+
+.right-section {
+  text-align: right;
+  padding-right: 20px;
+}
+
+h1 {
+  font-size: 96px;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  margin-top: 20px;
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+  background-color: greenyellow;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 70px;
+  border-radius: 5px;
+}
+
+.logo {
+  max-height: none;
+}
+
+/* For register.html, login.html, book-ride.html */
+body {
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-container {
+  text-align: center;
+}
+
+.center-heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.center-content {
+  max-width: 400px;
+}
+
+.center-form {
+  margin-top: 20px;
+}
+
+.input-field {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.bigger-heading {
+  font-size: 80px;
+}
+
